@@ -14,13 +14,15 @@
 		0E8799F718607F250035C305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8799F618607F250035C305 /* main.m */; };
 		0E8799FB18607F250035C305 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8799FA18607F250035C305 /* ASAppDelegate.m */; };
 		0E8799FE18607F250035C305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8799FC18607F250035C305 /* Main.storyboard */; };
-		0E879A0118607F250035C305 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E879A0018607F250035C305 /* ASViewController.m */; };
+		0E879A0118607F250035C305 /* ASChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E879A0018607F250035C305 /* ASChatViewController.m */; };
 		0E879A0318607F250035C305 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E879A0218607F250035C305 /* Images.xcassets */; };
 		0E879A0A18607F250035C305 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E879A0918607F250035C305 /* XCTest.framework */; };
 		0E879A0B18607F250035C305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8799EA18607F250035C305 /* Foundation.framework */; };
 		0E879A0C18607F250035C305 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8799EE18607F250035C305 /* UIKit.framework */; };
 		0E879A1418607F250035C305 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E879A1218607F250035C305 /* InfoPlist.strings */; };
 		0E879A1618607F250035C305 /* ASAppLikeSiriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E879A1518607F250035C305 /* ASAppLikeSiriTests.m */; };
+		0E879A2418609A920035C305 /* ASChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E879A2318609A920035C305 /* ASChatManager.m */; };
+		9ECCBDE3C1A54530A2DCD713 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76278A5A92484011A773BB55 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		0E8799F918607F250035C305 /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
 		0E8799FA18607F250035C305 /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
 		0E8799FD18607F250035C305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0E8799FF18607F250035C305 /* ASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
-		0E879A0018607F250035C305 /* ASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
+		0E8799FF18607F250035C305 /* ASChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASChatViewController.h; sourceTree = "<group>"; };
+		0E879A0018607F250035C305 /* ASChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASChatViewController.m; sourceTree = "<group>"; };
 		0E879A0218607F250035C305 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E879A0818607F250035C305 /* ASAppLikeSiriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAppLikeSiriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E879A0918607F250035C305 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0E879A1118607F250035C305 /* ASAppLikeSiriTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASAppLikeSiriTests-Info.plist"; sourceTree = "<group>"; };
 		0E879A1318607F250035C305 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E879A1518607F250035C305 /* ASAppLikeSiriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppLikeSiriTests.m; sourceTree = "<group>"; };
+		0E879A2218609A920035C305 /* ASChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASChatManager.h; sourceTree = "<group>"; };
+		0E879A2318609A920035C305 /* ASChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASChatManager.m; sourceTree = "<group>"; };
+		76278A5A92484011A773BB55 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06EF21FB6DF45CEAA712798 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				0E8799ED18607F250035C305 /* CoreGraphics.framework in Frameworks */,
 				0E8799EF18607F250035C305 /* UIKit.framework in Frameworks */,
 				0E8799EB18607F250035C305 /* Foundation.framework in Frameworks */,
+				9ECCBDE3C1A54530A2DCD713 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,7 @@
 				0E879A0F18607F250035C305 /* ASAppLikeSiriTests */,
 				0E8799E918607F240035C305 /* Frameworks */,
 				0E8799E818607F240035C305 /* Products */,
+				E06EF21FB6DF45CEAA712798 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,7 @@
 				0E8799EC18607F250035C305 /* CoreGraphics.framework */,
 				0E8799EE18607F250035C305 /* UIKit.framework */,
 				0E879A0918607F250035C305 /* XCTest.framework */,
+				76278A5A92484011A773BB55 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +121,13 @@
 		0E8799F018607F250035C305 /* ASAppLikeSiri */ = {
 			isa = PBXGroup;
 			children = (
+				0E879A2018609A200035C305 /* Model */,
+				0E879A1F186092B90035C305 /* Controller */,
 				0E8799F918607F250035C305 /* ASAppDelegate.h */,
 				0E8799FA18607F250035C305 /* ASAppDelegate.m */,
 				0E8799FC18607F250035C305 /* Main.storyboard */,
-				0E8799FF18607F250035C305 /* ASViewController.h */,
-				0E879A0018607F250035C305 /* ASViewController.m */,
+				0E8799FF18607F250035C305 /* ASChatViewController.h */,
+				0E879A0018607F250035C305 /* ASChatViewController.m */,
 				0E879A0218607F250035C305 /* Images.xcassets */,
 				0E8799F118607F250035C305 /* Supporting Files */,
 			);
@@ -152,6 +163,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0E879A1F186092B90035C305 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E879A2018609A200035C305 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E879A2118609A280035C305 /* RequestManager */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E879A2118609A280035C305 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				0E879A2218609A920035C305 /* ASChatManager.h */,
+				0E879A2318609A920035C305 /* ASChatManager.m */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E879A1918607F250035C305 /* Build configuration list for PBXNativeTarget "ASAppLikeSiri" */;
 			buildPhases = (
+				AEA540F37DD9459D9F49DFAF /* Check Pods Manifest.lock */,
 				0E8799E318607F240035C305 /* Sources */,
 				0E8799E418607F240035C305 /* Frameworks */,
 				0E8799E518607F240035C305 /* Resources */,
+				BA5A3127692442CFBF6448B8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +282,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AEA540F37DD9459D9F49DFAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5A3127692442CFBF6448B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E8799E318607F240035C305 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0E8799FB18607F250035C305 /* ASAppDelegate.m in Sources */,
-				0E879A0118607F250035C305 /* ASViewController.m in Sources */,
+				0E879A0118607F250035C305 /* ASChatViewController.m in Sources */,
 				0E8799F718607F250035C305 /* main.m in Sources */,
+				0E879A2418609A920035C305 /* ASChatManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +447,7 @@
 		};
 		0E879A1A18607F250035C305 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06EF21FB6DF45CEAA712798 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +461,7 @@
 		};
 		0E879A1B18607F250035C305 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06EF21FB6DF45CEAA712798 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +534,7 @@
 				0E879A1B18607F250035C305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E879A1C18607F250035C305 /* Build configuration list for PBXNativeTarget "ASAppLikeSiriTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +543,7 @@
 				0E879A1E18607F250035C305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

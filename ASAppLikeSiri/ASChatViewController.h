@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JSMessagesViewController.h"
 
-@interface ASViewController : UIViewController
+@interface ASChatViewController : JSMessagesViewController
 
 @end
