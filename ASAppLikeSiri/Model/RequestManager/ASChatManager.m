@@ -11,7 +11,7 @@
 
 @implementation ASChatManager
 
-static const NSString * API_KEY = @"616f2f7a61756d59486266665237486945756e5071593071766637636350376a4e4635656838564a4b4d35";
+static const NSString * API_KEY = @"xxxxx";
 
 + (instancetype)sharedManager
 {
